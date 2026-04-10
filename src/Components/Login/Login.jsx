@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './login.css'
-import { mainIcon } from '../../assets/Main-Icon.png'
+import  mainIcon  from '../../assets/Main-Icon.png'
 import { Hand } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useAuth } from '../../Context/AuthContext';
