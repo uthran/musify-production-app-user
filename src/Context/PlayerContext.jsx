@@ -7,7 +7,7 @@ export const PlayerContext=createContext()
 
 export const PlayerContextProvider=({children})=>{
 
-    const API = "http://localhost:8080/api/playlists";
+    const API = "https://musify-production-app-y8ld.onrender.com/api/playlists";
     const[songsdata,setSongsdata]=useState([])
     const [showaddplay,setShowaddplay]=useState(false)
     const[albumsdata,setAlbumsdata]=useState([])

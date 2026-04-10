@@ -13,7 +13,7 @@ export const useAuth=()=>{
 
 export const AuthProvider=({children})=>{
  
-    const API_BASE_URL="http://localhost:8080"
+    const API_BASE_URL="https://musify-production-app-y8ld.onrender.com"
     const [user,setUser]=useState(null)
     const [token,setToken]=useState(localStorage.getItem("userToken"))
     const [loading,setLoading]=useState(false)
