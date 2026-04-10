@@ -49,7 +49,7 @@ const Register = ({OnSwitchToLogin}) => {
     <>
     <div className="register-form-div">
       <div className="register-with-logo">
-        <img src={assests.logo} alt="" />
+        <img src={mainIcon} alt="" />
         <h1>Musify</h1>
       </div>
       <div className="join-musify">
