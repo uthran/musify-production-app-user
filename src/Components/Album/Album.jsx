@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import './album.css'
-import musify from './../../assets/Main-icon.png'
+import mainIcon from "../../assets/Main-icon.png";
 
 import { PlayerContext } from '../../Context/PlayerContext'
 import { Clock10Icon } from 'lucide-react'
@@ -31,7 +31,7 @@ const Album = ({albums,bgcolor}) => {
           <h2>{albums?.name}</h2>
           <p>Lana Del Ray Songs</p>
          <div className="album-logo-line">
-          <img className='album-musify-logo' src={musify} alt="" />
+          <img className='album-musify-logo' src={mainIcon} alt="" />
           <h6>Musify</h6>
           <p>1,23,456 likes</p>
           <h6>6 songs</h6>
