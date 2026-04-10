@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './login.css'
-import { assests } from '../../assets/Assets'
+import { mainIcon } from '../../assets/Main-icon.png'
 import { Hand } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useAuth } from '../../Context/AuthContext';
@@ -43,7 +43,7 @@ const Login = ({OnSwitchToRegister}) => {
     <>
     <div className="register-form-div">
            <div className="register-with-logo">
-              <img src={assests.logo} alt="" />
+              <img src={mainIcon} alt="" />
               <h1>Musify</h1>
             </div>
             <div className="join-musify">
