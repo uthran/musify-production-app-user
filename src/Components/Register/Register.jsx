@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './register.css'
-import { mainIcon } from '../../assets/Main-icon.png'
+import { mainIcon } from '../../assets/Main-Icon.png'
 import toast from 'react-hot-toast'
 import { useAuth } from '../../Context/AuthContext'
 

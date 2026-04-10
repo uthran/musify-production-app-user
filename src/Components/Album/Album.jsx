@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import './album.css'
-import mainIcon from "../../assets/Main-icon.png";
+import mainIcon from "../../assets/Main-Icon.png";
 
 import { PlayerContext } from '../../Context/PlayerContext'
 import { Clock10Icon } from 'lucide-react'
