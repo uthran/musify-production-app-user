@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './displayplaylist.css'
 import { PlayerContext } from '../../Context/PlayerContext'
 import { useParams } from 'react-router-dom'
-import musify from './../../assets/Main-icon.png'
+import musify from './../../assets/Main-Icon.png'
 import { Clock10Icon } from 'lucide-react'
 import playlisticon from '../../assets/empty_playlist.png'
 const Displayplaylist = () => {
