@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register-form-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+  background: #489e33;
+background: linear-gradient(133deg, rgba(72, 158, 51, 0.95) 1%, rgba(26, 23, 23, 1) 31%, rgba(13, 12, 12, 1) 63%, rgba(58, 140, 35, 1) 97%);
+}
+.register-with-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.register-with-logo img{
+    height: 50px;
+}
+.join-musify{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:15px ;
+}
+.register-form{
+    margin-top: 25px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: rgb(44, 41, 41);
+      border-radius: 5px;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 10px 15px; 
+}
+.input-div label{
+    color: white;
+    font-size: small;
+}
+.input-div input{
+    background-color: rgb(58, 56, 56);
+    outline: none;
+    height: 30px;
+    width: 245px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.input-div input::placeholder{
+    font-size: small;
+    padding-left: 10px;
+    color: rgb(202, 202, 202);
+}
+.register-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.register-button button{
+    width: 250px;
+    height: 30px;
+    background-color: #41dd1a;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.already-have-account{
+    margin: 10px 20px;
+    font-size: small;
+    cursor: pointer;
+}
+.already-have-account p span{
+    color:#41dd1a;
+}
+.register-terms{
+    text-align: center;
+    margin: 7px 20px;
+    margin-bottom: 10px;
+    font-size: x-small;
+    color: grey;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,24 @@
+.home-div{
+    color: white;
+    overflow: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.diplay-album{
+    display: flex;
+    overflow: auto;
+    gap: 15px;
+}
+.display-song{
+    display: flex;
+    height: 300px;
+    overflow: auto;
+    gap: 15px;
+}
+::-webkit-scrollbar{
+    display: none;
+}

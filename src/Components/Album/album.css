@@ -1,0 +1,71 @@
+.album-image-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.album-image-div h2{
+    font-size: 40px;
+}
+.main-album-image{
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+}
+.album-logo-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.album-logo-line img{
+    height: 30px;
+}
+.album-logo-line h6{
+    font-size: medium;
+}
+.album-logo-line p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hr-div{
+    height: 1px;
+    margin-bottom: 10px;
+}
+.song-list-div{
+    color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0px 0px 10px;
+    padding-left: 100px;
+    font-size: small;
+}
+.song-list-table{
+    display: grid;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    overflow: scroll;
+}
+.song-list-table:nth-child(even){
+    background-color:rgb(14,14,14);
+}
+.song-list-table:hover{
+  background-color: rgb(10,10,10);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.song-img-div{
+display: flex;
+gap: 10px;
+align-items: center;
+}

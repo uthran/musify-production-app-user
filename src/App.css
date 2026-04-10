@@ -1,0 +1,11 @@
+.authwrapper{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.authwrapper-1{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}

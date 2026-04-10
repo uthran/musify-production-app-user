@@ -1,0 +1,40 @@
+.addplay-div{
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.addplay-box{
+    width: 300px;
+    background-color: rgb(12,12,12);
+    border-radius: 10px;
+    padding-top:10px;
+}
+.addplay-playlist-data{
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+.addplay-plalist-data form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addplay-button{
+    padding: 5px 25px;
+    margin: 0 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.addplay-button:hover{
+    background-color: rgb(4, 155, 4);
+}

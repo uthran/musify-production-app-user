@@ -1,0 +1,28 @@
+.song-item-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    height: 280px;
+    width: 220px;
+    margin-top: 5px;
+    background-color: rgb(8,8,8);
+}
+.album-item-div{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(8,8,8);
+    height: 280px;
+    width: 250px;
+}
+.song-item-div img{
+    height: 200px;
+    width: 200px;
+}
+.song-div-p{
+    margin-top: 10px;
+}
+
+.song-item-div:hover{
+    background-color: rgb(13,13,13);
+}

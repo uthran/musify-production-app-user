@@ -1,0 +1,65 @@
+.song-player-div{
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 13vh;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: -12px;
+    padding: 30px;
+    background-color: rgb(6, 6, 6);
+}
+.song-player-left-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.song-player-left-div div{
+    display: flex;
+    flex-direction: column;
+}
+.song-controller-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.song-controller{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.seekbar-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.seek-bg {
+    width: 400px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.seek-bar {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+}
+.player-last-container{
+    display: flex;
+    gap: 5px;
+}
+.marquee-player{
+    font-size: small;
+    margin-top: 7px;
+    width: 200px;
+}
