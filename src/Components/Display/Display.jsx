@@ -7,7 +7,7 @@ import Search from '../Search/Search'
 import Navbar from '../Navbar/Navbar'
 import DisplaySearch from '../Displaysearch/DisplaySearch'
 import { PlayerContext } from '../../Context/PlayerContext'
-import PlaylistManager from '../Playlist/PlaylistManager'
+
 import Playlist from '../Playlist/Playlist'
 import AddPlay from '../Playlist/AddPlay'
 import Displayplaylist from '../DisplayPlaylist/Displayplaylist'
