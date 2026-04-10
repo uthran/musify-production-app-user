@@ -4,7 +4,6 @@ import Search from '../Search/Search'
 import { CrosshairIcon, CrossIcon, LibraryIcon, MoveRightIcon, PlusIcon } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { PlayerContext } from '../../Context/PlayerContext'
-import PlaylistManager from '../Playlist/PlaylistManager'
 import Playlist from '../Playlist/Playlist'
 const Sidebar = () => {
     const{playlist}=useContext(PlayerContext)
